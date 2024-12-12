@@ -1,0 +1,310 @@
+@media screen and (max-width: 1310px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .header {
+    min-height: 700px;
+  }
+  .hero {
+    padding-top: 135px;
+  }
+
+  .main-one__img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 1185px) {
+  .main-three__son {
+    padding: 30px;
+  }
+  .card-heading {
+    margin-bottom: 7px;
+  }
+  .card-text {
+    margin-bottom: 30px;
+  }
+  .card-price {
+    font-size: 26px;
+  }
+  .main-one__img {
+    width: 170px;
+  }
+  .header {
+    min-height: 650px;
+  }
+
+  .main-one-text {
+    margin-bottom: 25px;
+  }
+  .items {
+    width: 42%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .card-box__son {
+    width: 19%;
+    padding: 18px !important;
+  }
+
+  .card-box__son-text {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .main-one-heading {
+    font-size: 25px;
+  }
+  .main-one-text {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .card-text {
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+
+  .main-two__son {
+    padding: 28px;
+  }
+
+  .title-area__img {
+    width: 50px;
+  }
+  .title-area__heading {
+    font-size: 18px;
+  }
+  .son-information {
+    font-size: 14px;
+  }
+
+  .main-two__box {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .main-three__son {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .card-price {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .main-three__btn2 {
+    width: 140px;
+  }
+
+  .main-one__box {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .main-one__img {
+    width: 155px;
+  }
+  .main-three__box {
+    margin-bottom: 80px;
+  }
+
+  .main-one-heading {
+    font-size: 25px;
+  }
+  .main-one-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1015px) {
+  .card-text {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .main-three__son {
+    padding: 25px;
+  }
+  .card-price {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 995px) {
+  .card-box__son {
+    padding: 16px;
+  }
+  .main-one__img {
+    width: 145px;
+  }
+
+  .header {
+    min-height: 550px;
+  }
+  .hero {
+    padding-top: 80px;
+  }
+
+  .hero-heading {
+    font-size: 35px;
+  }
+  .hero-text {
+    font-weight: 300px;
+  }
+  .title-area {
+    margin-bottom: 17px;
+  }
+  .title-area__img {
+    width: 45px;
+  }
+  .main-two__son {
+    padding: 22px;
+  }
+  .main-three__btn2 {
+    width: 135px;
+  }
+}
+
+@media (max-width: 950px) {
+  .navbar-icons__box {
+    display: none;
+  }
+
+  .items {
+    width: 60%;
+  }
+
+  .container {
+    padding: 0px 35px;
+  }
+  .main-one__card-box {
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    justify-content: center;
+  }
+
+  .footer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .footer-box {
+    width: 90%;
+  }
+
+  .card-box__son {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 895px) {
+  .btn-area {
+    display: block;
+    /* text-align: center; */
+  }
+  .main-three__btn1 {
+    margin-bottom: 20px;
+    border: 1px solid red;
+  }
+  .main-three__btn2 {
+    width: 160px;
+  }
+}
+
+@media (max-width: 830px) {
+  .main-two__card-box {
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    justify-content: center;
+  }
+  .main-two__son {
+    width: 320px;
+  }
+
+  .main-three__card-box {
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    justify-content: center;
+  }
+  .main-three__son {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 780px) {
+  .header {
+    opacity: 1;
+  }
+
+  .footer{
+    padding-bottom: 10px;
+  }
+
+  .footer-box {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer hr {
+    display: none;
+
+  }
+
+  .footer-box__copyrights {
+    display: none;
+  }
+
+  .menu-icon-label {
+    display: block;
+  }
+
+  .items {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    transition: 0.6s all;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    height: 100vh;
+    border-radius: none !important;
+    -webkit-border-radius: none !important;
+    -moz-border-radius: none !important;
+    -ms-border-radius: none !important;
+    -o-border-radius: none !important;
+    -webkit-transition: 0.6s all;
+    -moz-transition: 0.6s all;
+    -ms-transition: 0.6s all;
+    -o-transition: 0.6s all;
+  }
+
+  .menu-cancel-label {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  #menu-check:checked ~ .items {
+    right: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .items {
+    width: 100%;
+  }
+}
