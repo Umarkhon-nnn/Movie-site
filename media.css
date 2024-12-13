@@ -353,3 +353,18 @@
    }
 
 }
+
+@media (max-width:370px){
+  .main-one-heading{
+font-size: 22px;
+  }
+  .main-four-text{
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .main-four__box{
+    min-height: 350px;
+  }
+}
+
